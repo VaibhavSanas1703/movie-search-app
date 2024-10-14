@@ -15,7 +15,7 @@
 }
 
 body{
-     background: var(--bg-color);
+     background: #000;
 }
 
 @font-face {
@@ -139,7 +139,7 @@ header{
 .movie-container{
      width: 100%;
      height: auto;
-     gap: 10px;
+     gap: 15px;
      flex-wrap: wrap;
      margin-top: 50px;
      align-items: center;
