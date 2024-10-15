@@ -64,13 +64,13 @@ searchBtn.addEventListener("click",() => {
       }
 })
 
-// searchInput.addEventListener('keyup',(event) => {
-//      if (event.target.value != "") {
-//           getMovies(SEARCHAPI + event.target.value)
-//       } else {
-//           getMovies(APIURL);
-//       }
-// })
+searchInput.addEventListener('keyup',(event) => {
+     if (event.target.value != "") {
+          getMovies(SEARCHAPI + event.target.value)
+      } else {
+          getMovies(APIURL);
+      }
+})
 
 document.addEventListener('keydown',(event) => {
      if(event.key == 'Enter'){
