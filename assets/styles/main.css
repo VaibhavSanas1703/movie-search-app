@@ -115,10 +115,7 @@ header{
      color: var(--text-color);
      transition: border-color .3s;
 }
-/* 
-.search-box input:focus{
-     border-color: var(--primary-color);
-} */
+
 
 ::placeholder{
      color: rgba(0,0,0,0.5);
